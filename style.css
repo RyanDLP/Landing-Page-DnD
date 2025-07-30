@@ -7,7 +7,7 @@
 .title {
     font-size: 45px;
   font-weight: 900;
-  color: #164af5;
+  color: #ff0202;
 }
 
 .title:hover {
@@ -37,31 +37,7 @@
   }
 }
 
-.navBar {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: #000 1px solid;
-}
-
-.a1 {
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 900;
-  color: #000;
-  transition: 0.5s;
-}
-
-.a1:hover {
-  color: #fff;
-  background-color: #164af5;
-  transition: 0.5s;
-  border-radius: 30px;
-  margin: 20px;
-}
-
-.corpo1 {
+.barbarian-container {
   margin-top: 30px;
   width: 100%;
   height: 30rem;
@@ -71,25 +47,23 @@
   justify-content: space-around;
 }
 
-.imgSoftSkills {
+.character-img {
   width: 500px;
   height: 100%;
 }
 
-.texto1 {
+.black-paragraph {
   width: 350px;
   font-size: 25px;
   font-weight: 700;
   color: #161616;
 }
 
-.porcentagem {
-  font-size: 35px;
-  font-weight: 900;
+.red-text {
   color: #f70202;
 }
 
-.texto69 {
+.quote-text {
     width: 369px;
     font-size: 27;
     font-weight: 600;
@@ -98,7 +72,7 @@
     margin-top: 30px;
 }
 
-.corpo2 {
+.warlock-container {
   width: 100%;
   height: 30rem;
   background-color: #164af5;
@@ -108,7 +82,7 @@
   justify-content: space-around;
 }
 
-.texto2 {
+.white-paragraph {
   width: 500px;
   font-size: 25px;
   font-weight: 700;
