@@ -144,3 +144,36 @@ body {
 .yellow-text {
   color: yellow;
 }
+
+.footer {
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-rollback {
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer-rollback a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  justify-content: space-around;
+}
+
+.footer-rollback a:hover {
+  background-color: #b90d1e;
+  color: #ffffff;
+}
+
+.footer-rollback .icon {
+  display: none;
+}
